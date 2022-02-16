@@ -1,0 +1,8 @@
+Git basics
+Cloning repo:
+-- open cmd from repo folder and run git clone "https link"
+Getting latest step:
+-- git pull
+
+commit -- like integrating
+push -- like adding checkpoint

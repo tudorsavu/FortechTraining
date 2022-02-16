@@ -1,0 +1,13 @@
+meta tags - pot fi folosite pentru adaugarea unor keywords
+Live server 
+display : block vs inline (example: div vs span )
+
+CSS part:
+!important
+Css selectors
+    simple . #
+    combinaion (+,~,>)
+    pseudo (:  :: hover)
+    attribute
+Flexbox
+https://flexboxfroggy.com/

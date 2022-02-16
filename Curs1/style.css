@@ -1,0 +1,36 @@
+.div-sibling + p {
+  color: red;
+}
+
+.hover-class:hover {
+  color: green;
+}
+
+.hover-class-first::first-letter {
+  color: green;
+}
+
+.after-class::after {
+  content: "  2002020";
+}
+
+#flexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 1px solid black;
+}
+
+body {
+  background-color: darkgray;
+}
+
+.flex-item {
+  flex: 0;
+}
+
+.flex-item-big {
+  flex: 2;
+}

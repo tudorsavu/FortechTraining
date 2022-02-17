@@ -6,3 +6,32 @@ Getting latest step:
 
 commit -- like integrating
 push -- like adding checkpoint
+
+
+$  git config --global user.name "Tudor Savu"
+$  git config --global user.email "tudorsavu2015@gmail.com"
+
+
+comitting from vs code: green files:
+-- stage changes
+-- commit
+-- push
+
+
+sintaxa js
+
+Variable declaration:
+var name = "";
+ES6
+let/const name = "";  -- recommended
+
+var is function scope
+let is block scope
+
+Tipuri de date:
+
+Primitive
+
+String, Number, undefined, null, Boolean
+
+References

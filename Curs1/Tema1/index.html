@@ -11,7 +11,7 @@
 
 <body>
     <h1>Homework 1</h1>
-    <table>
+    <table id="table">
         <tr>
             <th>1</th>
             <th>2</th>
@@ -28,7 +28,7 @@
                     <li>Milk</li>
                 </ul>
             </td>
-            <td><img src="assets/example.png" alt="Example image"></td>
+            <td><img src="assets/example.png" alt="Example image" style="height: 100px;"></td>
             <td>
                 <select name="cars" id="cars">
                     <option value="volvo">Volvo</option>
@@ -53,6 +53,50 @@
             <td>Mexico</td>
         </tr>
     </table>
+
+    <h2>Margin and padding</h2>
+
+    <div class="wrapper">
+        <button class="box margin">
+            test
+        </button>
+    </div>
+
+    <p>Padding nu accepta valori negative, acestea vor fi tratate ca 0.
+        <br>
+        Margin va accepta valori negative si va modifica spatierea dintre wrapper si continut.
+        <br>
+        De exemplu, o margine pozitiva aplicata pe top (margin-top) va impinge continutul in jos,
+        iar o margine negativa va trage continutul in directia opusa.
+    </p>
+
+    <h2>visibility:hidden vs display:none </h2>
+
+    <p>visibility:hidden - elementul este randat si ocupa spatiu in pagina, dar acesta nu este vizibil </p>
+
+    <p>display:none - elementul nu mai este randat si nu va ocupa deloc spatiu un pagina</p>
+
+    <p>Butoanele de mai jos vor aplica aceste stiluri: </p>
+
+    <button onclick="display()">diplay:none</button>
+    <button onclick="visibility()">visibility:hidden</button>
+    <button onclick="normal()">normal</button>
+
+    <script>
+        function display() {
+            document.getElementById("table").style.display = "none"
+        }
+        function visibility() {
+            document.getElementById("table").style.visibility = "hidden"
+        }
+        function normal() {
+            document.getElementById("table").style.display = "table"
+            document.getElementById("table").style.visibility = "visible"
+        }
+
+    </script>
+
+
 </body>
 
 </html>

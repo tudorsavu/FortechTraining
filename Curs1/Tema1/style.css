@@ -5,7 +5,11 @@ td {
   border-style: dashed;
 }
 
-button {
+table {
+  margin-bottom: 20px;
+}
+
+td > button {
   height: 40px;
   width: 100px;
   border-radius: 33%;
@@ -27,11 +31,39 @@ th {
   background-color: white;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) and (orientation: portrait) {
   body {
     background-color: lightblue;
   }
   tr:last-child {
     visibility: hidden;
   }
+}
+
+.margin-padding {
+  padding: -30px;
+  margin: 20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+
+.wrapper {
+  border: 5px solid black;
+  margin: 50px;
+  display: inline-block;
+  background: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: lightgrey;
+  border: 1px solid grey;
+  padding: -10px;
+}
+
+.margin {
+  margin: -20px;
+  margin-top: 70px;
 }
